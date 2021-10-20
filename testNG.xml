@@ -1,0 +1,8 @@
+<suite name="WebTest" >
+ 	<test name="AutomationProject">
+		<classes>
+			<class name="MavenTest.MavenFirstProject.LoginTest">
+			</class>
+		</classes>
+	</test>
+</suite>
