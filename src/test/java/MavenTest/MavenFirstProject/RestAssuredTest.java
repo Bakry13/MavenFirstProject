@@ -35,6 +35,7 @@ public class RestAssuredTest {
 	@Test
 	public Response postRequest()
 	{   
+		System.out.println(body);
 		try {
 			 RestAssured.baseURI = baseURL + endpoint;
 			 response = given()
@@ -60,6 +61,5 @@ public class RestAssuredTest {
 		System.out.println("response: " + jsonString);
 		System.out.println("title1: " + title);
 		System.out.println("responseSize: " + dataSize);
-		
     }
 }
