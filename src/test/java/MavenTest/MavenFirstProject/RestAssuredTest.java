@@ -11,7 +11,8 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
-public class RestAssuredTest {
+public class RestAssuredTest 
+{
 	String baseURL = "https://jsonplaceholder.typicode.com";
 	String endpoint = "/posts";
 	String body = "{\n" +
